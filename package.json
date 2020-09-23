@@ -5,6 +5,6 @@
     "dev": "serve ."
   },
   "devDependencies": {
-    "serve": "^6.5.6"
+    "serve": "^11.3.2"
   }
 }
