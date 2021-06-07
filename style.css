@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Fira Mono";
+  src: url("/fonts/FiraMono-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Fira Mono";
+  src: url("/fonts/FiraMono-Regular.ttf");
+  font-weight: normal;
+}
+
 /**
  * global styles
  */
@@ -5,7 +16,7 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: 'Fira Mono', monospace;
+  font-family: "Fira Mono", monospace;
 }
 
 /**
@@ -15,7 +26,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-[class^=c-] {
+[class^="c-"] {
   width: 100%;
   float: left;
 }
@@ -91,12 +102,4 @@ li img {
 }
 li span {
   display: block;
-}
-@media (min-width: 768px) {
-  li img {
-    vertical-align: middle;
-  }
-  li span {
-    display: inline;
-  }
 }
